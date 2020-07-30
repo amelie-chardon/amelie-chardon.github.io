@@ -1,0 +1,223 @@
+/* GENERAL */
+body
+{
+    margin:0;
+    padding:0;
+}
+
+aside
+{
+    display:flex;
+    flex-direction: column;
+    width: 20vw;
+    background-color:rgb(47, 128, 182);
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    height: 100vh;
+}
+
+
+aside nav,ul, li
+{
+    flex-direction: column;
+    margin:0;
+    padding:0;
+    display: flex;
+}
+
+aside li
+{
+    align-items: center;
+    justify-items: center;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+    margin:2vh;
+}
+
+aside a
+{
+    color:white;
+    font-size: 2.6vw;
+    text-transform: uppercase;
+    font-family: 'Saira Condensed', sans-serif;
+}
+
+.en-cours
+{
+    color:silver;
+}
+
+
+main
+{
+    margin-left:25vw;
+    margin-right: 5vw;
+    scroll-behavior: smooth;
+}
+
+
+h1
+{
+    color:rgb(64, 66, 73);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size:8vh;
+    margin-bottom:0;
+    margin-top:5vh;
+}
+
+h2
+{
+    color:rgb(47, 128, 190);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size:6vh;
+    margin-top:1vh;
+    margin-bottom: 1vh;
+}
+
+h3
+{
+    color:rgb(47, 130, 190);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size:3.5vh;
+    margin:0;
+    margin-top:4.5vh;
+}
+
+
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: flex-start;
+    justify-items: center;
+    justify-content: center;
+}
+
+/*A PROPOS*/
+
+#profil
+{
+    border-radius: 50%;
+    max-width: 30vh;
+}
+
+#sous-titre
+{
+    color:rgb(47, 130, 190);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size:3.5vh;
+    font-style: italic;
+}
+
+strong
+{
+    color:rgb(64, 66, 73);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size:2.4vh;
+    font-style: italic;
+    margin:0;
+}
+
+.logos
+{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top:5vh;
+}
+
+.logos img
+{
+    height: 8vh;
+    margin-right: 5vw;
+}
+
+/*EXPERIENCES + FORMATIONS */
+
+.organisme
+{
+    color:rgb(65, 60, 60);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size:3.2vh;
+    margin:0;
+}
+
+.date
+{
+    color:rgb(51, 51, 53);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size:3.2vh;
+    font-style:italic;
+    margin:0;
+}
+
+.description
+{
+    color:rgb(0, 0, 0);
+    font-family: 'Saira Condensed', sans-serif;
+    font-size:3.2vh;
+    margin:0;
+}
+
+/*CONTACT*/
+
+/*LOISIRS*/
+
+.loisirs
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.activite
+{
+    display: flex;
+    background-color: skyblue;
+    border-radius: 50%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color:rgb(0, 0, 0);
+    font-family: 'Saira Condensed', sans-serif;
+    margin:2vw;
+}
+
+#activite1
+{
+    height: 17vw;
+    width: 17vw;
+    font-size:4vw;
+}
+
+#activite2
+{
+    height: 14vw;
+    width: 14vw;
+    font-size:2.2vw;
+}
+
+#activite3
+{
+    height: 12vw;
+    width: 12vw;
+    font-size:2vw;
+}
+
+#activite4
+{
+    height: 8vw;
+    width: 8vw;
+    font-size:1.7vw;
+}
