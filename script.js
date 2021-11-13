@@ -25,8 +25,11 @@ $(function() {
 
 $(document).scroll(function(){
     if (scrollY < 671) { $("a[href]").removeClass("en-cours"); $("a[href$='a-propos']").addClass("en-cours");}
-    if(671 < scrollY && scrollY <=1200){ $("a[href]").removeClass("en-cours"); $("a[href$='experiences']").addClass("en-cours");}
+    if(671 < scrollY && scrollY <=1200){ $("a[href]").removeClass("en-cours"); $("a[href$='competences']").addClass("en-cours");}
+    if(1200< scrollY && scrollY <=2100){ $("a[href]").removeClass("en-cours"); $("a[href$='realisations']").addClass("en-cours");}
+    if(2100 < scrollY){ $("a[href]").removeClass("en-cours"); $("a[href$='contact']").addClass("en-cours");}
+    /*if(671 < scrollY && scrollY <=1200){ $("a[href]").removeClass("en-cours"); $("a[href$='experiences']").addClass("en-cours");}
     if(1200< scrollY && scrollY <=2100){ $("a[href]").removeClass("en-cours"); $("a[href$='competences']").addClass("en-cours");}
     if(2100 < scrollY && scrollY <=2700){ $("a[href]").removeClass("en-cours"); $("a[href$='realisations']").addClass("en-cours");}
-    if(2700 < scrollY){ $("a[href]").removeClass("en-cours"); $("a[href$='contact']").addClass("en-cours");}
+    if(2700 < scrollY){ $("a[href]").removeClass("en-cours"); $("a[href$='contact']").addClass("en-cours");}*/
 });
